@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Marmelad&display=swap");
+
+body {
+    font-family: Marmelad , Tahoma;
+    font-size: 1.5em;
+    background: linear-gradient(90deg, #5350f6 0%, #060113 100%);
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(157, 188, 177);
+}
+
+.navbar-brand img {
+    width: 140px;
+    height: 50px;
+}
+
+.navbar-toggler {
+    background-color: rgb(157, 188, 177);
+}
+
+.right{
+    padding-top: 4em;
+}
+
+.sidebare {
+    color: aquamarine;
+    font-size: medium;
+    background: linear-gradient(270deg, #5350f6 0%, #060113 100%);
+}
+
+.card {
+    color: aquamarine;
+    background: linear-gradient(270deg, #5350f6 0%, #060113 100%);
+}
+
+.slide-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+footer {
+    background: linear-gradient(270deg, #5350f6 0%, #060113 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* анимация звонка */
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 100%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+/* анимация звонка  end*/
+
+
+@media (max-width: 765px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+.help-you {
+    color: aquamarine;
+}
+.btn-outline-primary {
+    background: linear-gradient(270deg, #5350f6 0%, #060113 100%);
+}
+
+.card-title{
+   
+    height: 4em;
+}
+.card-text {
+    font-size: medium;
+    height: 5em;
+
+}
+.details {
+    text-indent: 1em;
+    text-align: justify;
+    color: aquamarine;
+    margin: auto auto;
+}
+
